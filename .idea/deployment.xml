@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="ec2-3-129-9-253.us-east-2.compute.amazonaws.com (ad22f553-06d8-4c97-8d4d-36179e148875)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.xUWU9X52yM" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-cmake-remote" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

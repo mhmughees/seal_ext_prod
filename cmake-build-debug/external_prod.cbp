@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="external_prod"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\SEAL-3.5\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++ implementation/external_prod/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++ implementation/external_prod/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++ implementation/external_prod/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="external_prod">
+				<Option output="/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++ implementation/external_prod/cmake-build-debug/external_prod" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++ implementation/external_prod/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNFL_OPTIMIZED"/>
+					<Add option="-DNTT_AVX2"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/SEAL-3.5"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 external_prod"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="external_prod/fast">
+				<Option output="/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++ implementation/external_prod/cmake-build-debug/external_prod" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++ implementation/external_prod/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNFL_OPTIMIZED"/>
+					<Add option="-DNTT_AVX2"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/SEAL-3.5"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 external_prod/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++\ implementation/external_prod/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++ implementation/external_prod/external_prod.cpp">
+			<Option target="external_prod"/>
+		</Unit>
+		<Unit filename="/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++ implementation/external_prod/external_prod.h">
+			<Option target="external_prod"/>
+		</Unit>
+		<Unit filename="/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++ implementation/external_prod/main.cpp">
+			<Option target="external_prod"/>
+		</Unit>
+		<Unit filename="/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++ implementation/external_prod/util.h">
+			<Option target="external_prod"/>
+		</Unit>
+		<Unit filename="/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++ implementation/external_prod/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++ implementation/external_prod/../../../../../../../usr/local/lib/cmake/SEAL-3.5/SEALConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\SEAL-3.5\"/>
+		</Unit>
+		<Unit filename="/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++ implementation/external_prod/../../../../../../../usr/local/lib/cmake/SEAL-3.5/SEALConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\SEAL-3.5\"/>
+		</Unit>
+		<Unit filename="/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++ implementation/external_prod/../../../../../../../usr/local/lib/cmake/SEAL-3.5/SEALTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\SEAL-3.5\"/>
+		</Unit>
+		<Unit filename="/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++ implementation/external_prod/../../../../../../../usr/local/lib/cmake/SEAL-3.5/SEALTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\SEAL-3.5\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

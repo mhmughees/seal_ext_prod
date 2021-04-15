@@ -1,0 +1,7 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" "/Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++ implementation/external_prod"
+-- Microsoft SEAL -> Version 3.5.1 detected
+-- Microsoft SEAL -> Targets available: SEAL::seal
+-- Build type (CMAKE_BUILD_TYPE): Release
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/harismughees/Documents/Cornell_Research/Secure_Delete/c++ implementation/external_prod/cmake-build-cmake-remote
