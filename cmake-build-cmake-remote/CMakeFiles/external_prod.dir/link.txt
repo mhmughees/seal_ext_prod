@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/external_prod.dir/main.cpp.o CMakeFiles/external_prod.dir/external_prod.cpp.o  -o external_prod -Wl,-rpath,/usr/local/lib /usr/local/lib/libseal-3.5.a /usr/local/lib/libnfllib.dylib 
